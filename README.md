@@ -52,7 +52,7 @@ A real-time machine learning web application that predicts house prices in **Tir
 
    streamlit run streamlit_app.py
    
-##🗃️ Project Structure
+## Project Structure
 
   tirupati-house-price-predictor/
 ├── app.py                     # Flask backend (API)
