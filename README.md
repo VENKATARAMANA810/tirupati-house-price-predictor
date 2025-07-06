@@ -39,12 +39,16 @@ A real-time machine learning web application that predicts house prices in **Tir
    ```bash
    git clone https://github.com/your-username/tirupati-house-price-predictor.git
    cd tirupati-house-price-predictor
+   
 2.**Install Dependencies**
    pip install -r requirements.txt
+   
 3.**Start the Flask API**
    python app.py
+   
 4.**Run Streamlit App in a New Terminal**
    streamlit run streamlit_app.py
+   
 ##🗃️ Project Structure
   tirupati-house-price-predictor/
 ├── app.py                     # Flask backend (API)
