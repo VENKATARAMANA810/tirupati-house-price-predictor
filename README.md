@@ -45,6 +45,7 @@ A real-time machine learning web application that predicts house prices in **Tir
    pip install -r requirements.txt
    
 3.**Start the Flask API**
+
    python app.py
    
 4.**Run Streamlit App in a New Terminal**
