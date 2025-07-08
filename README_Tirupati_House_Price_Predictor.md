@@ -101,7 +101,7 @@ A real-time machine learning web app that predicts house prices in Tirupati, Ind
 If you're interested in collaborating or hiring, feel free to reach out:
 
 - 📧 Email: vramana086@gmail.com  
-- 🔗 [LinkedIn](https://linkedin.com/in/svramana)  
+- 🔗 [LinkedIn](https://linkedin.com/in/svramana1)  
 - 🧠 [Portfolio](https://github.com/VENKATARAMANA810)
 
 ---
