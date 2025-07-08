@@ -1,116 +1,60 @@
 # 🏠 Tirupati House Price Predictor
 
-This is a real-time **Machine Learning web application** built using **Python, Scikit-learn, Streamlit, and Flask** that predicts house prices in Tirupati based on user input features such as square footage, number of bedrooms, location, and amenities.
+A real-time web app built using **Python, Streamlit, and Machine Learning** that predicts house prices in Tirupati based on area, location, number of bedrooms, and furnishing status.
 
-## 🔍 Problem Statement
+![App Preview](https://tirupati-house-price-predictor-9j7yv32x9pbzsjanmnuhtk.streamlit.app/)
 
-Property prices vary drastically based on location and features. Buyers and real estate professionals need a quick and accurate way to estimate housing prices. This project solves that problem with an ML-powered web app.
+## 🚀 Live Demo
+👉 [Click here to try the app](https://tirupati-house-price-predictor-9j7yv32x9pbzsjanmnuhtk.streamlit.app/)
 
----
+## 📌 Features
+- Real-time prediction of house prices in Tirupati.
+- User-friendly Streamlit interface.
+- Trained using **Random Forest Regressor** for high accuracy.
+- Data cleaned and preprocessed using Pandas.
+- Supports custom user input for predictions.
 
-## 🚀 Demo
-
-🔗 **Live Application**: *Currently in local deployment*
-
-🔗 **GitHub Repository**: [Tirupati House Price Predictor](https://github.com/VENKATARAMANA810/tirupati-house-price-predictor)
-
----
-
-## 🛠️ Features
-
-- User-friendly web interface built with **Streamlit**
-- Model served using **Flask** API
-- Trained using **Scikit-learn**
-- Real-time prediction based on user inputs
-- Displays predicted price instantly
-- Organized codebase for model training, API, and UI
-
----
-
-## ⚙️ Tech Stack
-
-| Tool        | Purpose                          |
-|-------------|----------------------------------|
-| Python      | Programming language             |
-| Pandas      | Data cleaning and manipulation   |
-| Scikit-learn| Model building                   |
-| Flask       | Backend API to serve predictions |
-| Streamlit   | Web UI for user interaction      |
-| GitHub      | Version control and portfolio    |
-
----
-
-## 📊 Model Workflow
-
-1. **Data Collection**: CSV dataset with house features
-2. **EDA & Cleaning**: Removed outliers, handled missing data
-3. **Feature Engineering**: One-hot encoding for location and categorical fields
-4. **Modeling**: Linear Regression, Ridge Regression (tuned with GridSearchCV)
-5. **Deployment**: 
-    - Model exported with `joblib`
-    - Backend created with Flask
-    - Frontend created with Streamlit
-    - Integrated using API calls
-
----
+## 🛠️ Technologies Used
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- Streamlit
+- Matplotlib & Seaborn
+- Git & GitHub
 
 ## 📂 Project Structure
 
 tirupati-house-price-predictor/
-├── app.py # Flask API
-├── model.pkl # Trained ML model
-├── requirements.txt # Project dependencies
-├── streamlit_app.py # Streamlit UI
-├── utils.py # Helper functions
-├── README.md # Project documentation
-└── data/
-└── house_data.csv # Cleaned dataset
+│
+├── app.py # Flask backend (optional)
+├── streamlit_app.py # Streamlit frontend app
+├── model.pkl # Trained Random Forest model
+├── columns.pkl # Feature columns used in model
+├── train model.ipynb # Model training notebook
+├── tirupati_large_cleaned_data.csv # Cleaned dataset
 
 
----
+## 📈 Model Info
+- Model Used: **Random Forest Regressor**
+- Metrics: R² Score, MAE
+- Dataset: Custom scraped and cleaned dataset with location, area, bedrooms, etc.
 
-## 📸 Screenshots
+## 📊 Sample Prediction
+Input:
+- Location: AIR Bypass Road
+- Area: 1200 sqft
+- Bedrooms: 3 BHK
+- Furnishing: Semi-Furnished
 
-![App Screenshot 1](![Screenshot 2025-07-06 210207](https://github.com/user-attachments/assets/67b79da7-4e1e-42fa-ae42-53db1bfbf992)
-)
-*Prediction Page UI*
-
----
-
-## 🧪 How to Run Locally
-
-1. Clone the repo:
-
- git clone https://github.com/VENKATARAMANA810/tirupati-house-price-predictor.git
-cd tirupati-house-price-predictor
-
-2. Install requirements:
-
-pip install -r requirements.txt
-
-3. Run Streamlit App:
-
-streamlit run streamlit_app.py
+Output:
+Predicted Price: ₹ 48.5 Lakhs
 
 
-4. Access the web app at:
-
-http://localhost:8501
-
-
----
-
-## ✍️ Author
-
+## 👨‍💻 Developer
 **Sunkara Venkataramana**  
-📧 vramana086@gmail.com  
-🔗 [GitHub Portfolio](https://github.com/VENKATARAMANA810)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/svramana1/)
+📫 [GitHub](https://github.com/VENKATARAMANA810)  
+📧 vramana086@gmail.com
 
 ---
 
-## 📌 License
-
-This project is open-source and free to use for learning or reference purposes.
-
-
+> ⭐ *Don't forget to star this repository if you find it useful!*
