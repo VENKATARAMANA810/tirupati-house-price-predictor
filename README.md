@@ -71,7 +71,8 @@ tirupati-house-price-predictor/
 
 ## 📸 Screenshots
 
-![App Screenshot 1](https://github.com/VENKATARAMANA810/tirupati-house-price-predictor/assets/your_screenshot_1.png)
+![App Screenshot 1](![Screenshot 2025-07-06 210207](https://github.com/user-attachments/assets/67b79da7-4e1e-42fa-ae42-53db1bfbf992)
+)
 *Prediction Page UI*
 
 ---
@@ -104,7 +105,7 @@ http://localhost:8501
 **Sunkara Venkataramana**  
 📧 vramana086@gmail.com  
 🔗 [GitHub Portfolio](https://github.com/VENKATARAMANA810)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/svramana1/)
 
 ---
 
