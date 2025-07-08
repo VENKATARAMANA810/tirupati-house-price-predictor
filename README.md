@@ -2,7 +2,8 @@
 
 A real-time web app built using **Python, Streamlit, and Machine Learning** that predicts house prices in Tirupati based on area, location, number of bedrooms, and furnishing status.
 
-![App Preview](https://tirupati-house-price-predictor-9j7yv32x9pbzsjanmnuhtk.streamlit.app/)
+![App Preview](https://raw.githubusercontent.com/VENKATARAMANA810/tirupati-house-price-predictor/main/app_screenshot.png)
+
 
 ## 🚀 Live Demo
 👉 [Click here to try the app](https://tirupati-house-price-predictor-9j7yv32x9pbzsjanmnuhtk.streamlit.app/)
